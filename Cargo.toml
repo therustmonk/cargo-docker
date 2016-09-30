@@ -1,0 +1,14 @@
+[package]
+name = "cargo-docker"
+version = "0.1.0"
+authors = ["Denis Kolodin <deniskolodin@gmail.com>"]
+repository = "https://github.com/DenisKolodin/cargo-docker"
+description = "A cargo subcommand to build binary with other OS."
+readme = "README.md"
+license = "MIT"
+
+[[bin]]
+name = "cargo-docker"
+
+[dependencies]
+clap = "2.13.0"
