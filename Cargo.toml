@@ -11,4 +11,4 @@ license = "MIT"
 name = "cargo-docker"
 
 [dependencies]
-clap = "2.13.0"
+clap = "2.23.3"
