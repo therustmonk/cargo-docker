@@ -54,7 +54,7 @@ fn main() {
             .args(&["-v", &target_folder])
             .args(&["-v", &cargo_folder])
             .arg(image)
-            .args(&["build", "--release"])
+            .args(&["build", "--all", "--release"])
             .spawn()
             .expect("failed to execute docker");
 
