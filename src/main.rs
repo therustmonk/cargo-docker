@@ -8,7 +8,7 @@ use std::process::Command;
 use clap::{App, AppSettings, SubCommand, Arg};
 
 fn main() {
-    let app = App::new("cargo-count")
+    let app = App::new("cargo-docker")
         .bin_name("cargo")
         .setting(AppSettings::SubcommandRequired)
         .subcommand(SubCommand::with_name("docker")
